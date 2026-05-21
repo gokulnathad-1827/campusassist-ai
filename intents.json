@@ -1,0 +1,47 @@
+{
+  "intents": [
+    {
+      "tag": "no_dues",
+      "patterns": [
+        "no dues",
+        "clear no dues",
+        "no dues process",
+        "how to clear no dues",
+        "no dues procedure"
+      ],
+      "responses": [
+        "Visit library, lab, accounts and get signatures."
+      ]
+    },
+    {
+      "tag": "exam",
+      "patterns": ["exam date", "exams", "when is exam"],
+      "responses": ["Exams are scheduled as per academic calendar."]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "fees",
+        "pay fees",
+        "how to pay fees",
+        "fee payment",
+        "college fees"
+      ],
+      "responses": [
+        "You can Pay via college portal or accounts office."
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning"
+      ],
+      "responses": [
+        "Hello! How can I help you?"
+      ]
+    }
+  ]
+}
